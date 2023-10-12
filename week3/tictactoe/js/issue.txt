@@ -1,0 +1,3 @@
+if we refresh the page in between all the moves are lost. in fact in between game if we switch tabs the game will start fresh on the new tab while we can still continue the game in the older tab. 
+
+no server involved and state is contained completely contained in the browser. 

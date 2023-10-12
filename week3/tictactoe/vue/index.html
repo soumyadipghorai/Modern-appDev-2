@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <div id="app">
+            <span v-html = headmsg></span>
+            <table border="2px">
+                <tr>
+                    <td><tic v-bind:pos = 0></tic></td>
+                    <td><tic v-bind:pos = 1></tic></td>
+                    <td><tic v-bind:pos = 2></tic></td>
+                </tr>
+                <tr>
+                    <td><tic v-bind:pos = 3></tic></td>
+                    <td><tic v-bind:pos = 4></tic></td>
+                    <td><tic v-bind:pos = 5></tic></td>
+                </tr>
+                <tr>
+                    <td><tic v-bind:pos = 6></tic></td>
+                    <td><tic v-bind:pos = 7></tic></td>
+                    <td><tic v-bind:pos = 8></tic></td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="./tictactoe.js"></script>
+    </body>
+</html>

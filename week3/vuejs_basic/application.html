@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{message}}</p>
+        Your Name: <input type="text" v-model = "visitor_name">
+        <p v-if = "count == 0">No replies yet </p>
+        <p v-else-if = "count > 10">You are very popular </p>
+        <p v-else>Number of replies {{count}}</p>
+        
+        <button v-on:click = "sayHi">Say Hi</button>
+        <ul>
+            <li v-for = "name in visitors">{{name}}</li>
+        </ul>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

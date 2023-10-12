@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <title>Tic Tac Toe</title>
+        <style>
+            .board {
+                display: flex;
+                flex-wrap: wrap;
+                width: 156px;
+                height: 156px; 
+            }
+            /* cell.height * 3 + border <= board.height  */
+            .cell {
+                width: 48px;
+                height: 48px;
+                border: 2px solid black;
+                font-size: 36px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">
+            <board></board>
+            <board></board>
+        </div>
+        <script type="text/javascript" src="./ttt.js"></script>
+    </body>
+</html>

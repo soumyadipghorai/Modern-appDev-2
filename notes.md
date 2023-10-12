@@ -65,3 +65,19 @@ JSON : java script object notation
 JSON.stringify()
 JSON.parse()
 ```
+
+### What's frontend
+* user facing part of app 
+* requirements 
+    * avoid complex logic 
+    * no data storage 
+    * work with stateless nature of HTTP
+* desirable 
+    * aesthetically pleasing 
+    * responsive 
+    * adaptive 
+
+#### Programming style :
+* **imperative** : sequence of actions to achieve final result 
+* **declarative** : specify desired result 
+

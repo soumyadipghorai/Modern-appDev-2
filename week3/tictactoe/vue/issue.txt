@@ -1,0 +1,6 @@
+tictactoe.js
+in tictactoe.js we have created a new component called tic 
+
+ttt.js :
+reuse of components 
+if we copy paste board we will have 2 boards and we can play 2 games simultaneously

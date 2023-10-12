@@ -1,0 +1,1 @@
+the issue here is if you move to a new tab and open the same link you'll get the updated table not the landing page. even if you move to incognito and change something in incognito it will be reflected in other tabs as well 
