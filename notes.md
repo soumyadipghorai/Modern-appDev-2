@@ -81,3 +81,38 @@ JSON.parse()
 * **imperative** : sequence of actions to achieve final result 
 * **declarative** : specify desired result 
 
+### Reactivity 
+* auto-update in response to changes in data 
+* binding between model(data) and view(display)
+
+How? 
+* server tracks state --> user logged in? date/time 
+* server responds with complete HTML based on present state --> fully server side 
+* client-JS --> login controller retrieves user model 
+
+Vue-directives 
+* v-bind --> one way binding - update variable, relects on display 
+* v-on --> event binding 
+
+class binding 
+* dynamically modify class of an element 
+* special support for bind-object 
+* multiple classes attached based on key-value 
+
+conditional rendering 
+* v-if="argument" --> following is shown when the condition is true 
+* v-show="param" --> only if show parameter evaluates true, always rendered and present in DOM - only CSS display parameter changed 
+
+looping 
+* v-for="item in items"
+* v-for="value in obj"
+* v-for="(value, name) in obj"
+* v-for="(value, name, index) in obj"
+
+loop keys
+* for complex loops to keep track of the element created from the for loop we use a key. key must be unique for each loop element 
+
+### Model / View 
+* Model 
+
+* View 

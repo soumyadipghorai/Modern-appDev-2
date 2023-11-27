@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div>
+            Message : {{message}}
+        </div>
+        <div>
+            <input v-model="message" type="text">
+        </div>
+        <p v-bind:title="message">Hover over this para</p>
+        <!-- ? title gives a hover value to this para. the hover value is same as the message value  -->
+        <button v-on:click="updateMsg">Update message</button> 
+        <!-- ? here we pass in the updateMsg function with onclik  -->
+        <div v-bind:class="message">This is a test message for checking classes</div>
+        <!-- 
+            * the value of the message is now the class name of this div  
+            * this can be useful for validation e.g. when you enter some password if the password is out of that threshold you can change the classname and add some css property to the classname(red). if the password is correct make it green
+        -->
+        <h1 v-show="message==='Hello'">Show only when argument evaluetes to true</h1>
+        <!-- ? this will be shown only when the message is Hello  -->
+        <h2>Expanding text</h2>
+        <span v-bind:style="{fontSize: myFontSize}">
+            Does this change?
+        </span>
+
+        <h2>Some responsive text</h2>
+        <div>{{msg2}}</div>
+
+        <h2>and a loop</h2>
+        <ul>
+            <!-- ? i is the index and x is the val(char in message) -->
+            <li v-for="(x, i) in message">{{i}} - {{x}}</li>
+        </ul>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./vue-test.js"></script>
+</body>
+</html>
