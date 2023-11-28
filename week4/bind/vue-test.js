@@ -13,11 +13,16 @@ let app = new Vue({
     computed : {
         myFontSize : function(){
             return `${this.message.length + 10}px`; // the shorter the message the smaller the size 
+            // any time message changes the function will update 
         }
     }, 
     watch: {
-        message : function(nmsg){
-            this.msg2 = `New: ${nmsg}`;
+        // message : function(nmsg){
+        //     this.msg2 = `New: ${nmsg}`;
+        // }, 
+        message : function(omsg, nmsg){
+            this.msg2 = `old : ${nmsg}, New ${omsg}`;
+            // prev msg and curr msg 
         }
     }
 })

@@ -113,6 +113,64 @@ loop keys
 * for complex loops to keep track of the element created from the for loop we use a key. key must be unique for each loop element 
 
 ### Model / View 
-* Model 
+* Model -> the data of the application
+* View -> displayed to end user 
 
-* View 
+### ViewModel 
+create model constructs with additional data / derived data --> cleaner code 
+ 
+* controller --> convey action to model. call appropriate view based on inputs and model 
+* viewModel --> create framework for data binding, can still use contollers to invoke actions
+
+### computed properties 
+each time the source data changes, update the derived data 
+* auto-update 
+* cached based on their reactive dependencies 
+
+### Watch 
+anything you can do with computed can be done with watch. cashing is harder to do. 
+
+### components
+* resue --> DRY(don't repeat yourself)
+structure 
+* properties --> passed down from parent - customize each instance 
+* data --> individual data of the present instance
+* template --> how to render, render function if possible
+
+Templates 
+* {{}} format - similar to jinja 
+* safety features --> will not interpolate text into tags 
+* more complex render functions possible 
+
+<slot></slot> 
+
+```js
+const data = {
+    count : 10
+}
+
+const newData = {
+
+}
+
+function track(){
+    console.log("prop accessed")
+}
+
+function trigger(){
+    console.log("prop modified")
+}
+Object.defineProperty(newData, 'count', {
+    get() { track(); return data.count; }, 
+    set(newValue) { data.count = newValue; trigger();}
+}); 
+
+console.log(newData.count); 
+// prop accessed 
+//10
+
+newData.count = 20;
+console.log(newData.count); //20
+// prop modified 
+
+```
