@@ -174,3 +174,22 @@ console.log(newData.count); //20
 // prop modified 
 
 ```
+### callbacks 
+js is a single threaded system. if a function takes a long time then then start that function and tell it call us back when done 
+
+```js
+function doSomething(successCB, failureCB){
+    let result = doLongComputation();
+    if (result) successCB(); 
+    else failureCB();
+}
+```
+
+### concurrency vs parallelism 
+* concurrent : multiple operations can be in process at the same time 
+* parallel : multiple concurrent operations are actually physically executing at the same time 
+
+### Async op: fetch()
+implemented using `Promise` 
+
+Axios --> custom API library with similar functionality to fetch  
