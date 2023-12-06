@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+<body>
+    <form action="" id="myform">
+        Name : 
+        <input type="text" name="name" id="">
+        City :
+        <input type="text" name="city" id="">
+        pic : 
+        <input type="file" name="pic" id="">
+    </form>
+</body>
+<script>
+    // json data 
+    fetch("https://httpbin.org/uuid")
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+    // text data 
+    fetch("https://httpbin.org/uuid")
+        .then(response => response.text())
+        .then(data => console.log(data));
+
+    // ##############################################
+    fetch("https://httpbin.org/uuid/404")
+        .then(function(response){
+            console.log(response)
+            if (!response.ok){
+                console.log("response not ok"); 
+                throw new Error("HTTP error, status = "+ response.status);
+            }
+            return response.json();
+        })
+        .then(function(data){
+            console.log("got data"+data); 
+        })
+        .catch(function(error){
+            console.log("in catch"+ error);
+        });
+
+    // ##############################################
+
+    data = {"name": "ghorai", "city" : "chennai"}
+
+    fetch("https://httpbin.org/post", {
+        method : 'POST', 
+        headers: {
+            "Content-Type" : 'applicaiton/json',  // important 
+        }, 
+        body: JSON.stringify(data), 
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log("Success : ", data);
+    })
+    .catch((error) => {
+        console.error("Error : ", error)
+    })
+
+    // ############################################## 
+    form = new FormData(document.getElementById("myform")); 
+    fetch('https://httpbin.org/post', {
+        method : 'PUT',    
+        body : form
+    })
+    .then(response => response.json())
+    .then(result => {
+        console.log("Success ", result);
+    })
+    .catch(error => {
+        console.error("Error : ", error);
+    })
+
+    // ##############################################
+    fetch("http://httpbin.org/image/jpeg").then((response) => {
+            console.log("got it")
+            return response.blob();
+        }).then((myblob) => {
+            console.log(myblob)
+        }).catch((error) => {
+            console.log("error : "+error.message)
+        });
+
+    // ##############################################
+    myHeaders = new Headers(); 
+    myHeaders = {"Content-Type" : "application/json"}
+
+    myRequest = new Request("http://httpbin.org/post", {
+        method : 'POST', 
+        headers : myHeaders, 
+        mode : 'cors', 
+        cache : 'default'
+    }); 
+
+    fetch(myRequest)
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+    response = await fetch("https://httpbin.org/uuid"); 
+    data = await response.json(); 
+    console.log(data)
+</script>
+</html>
