@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container" id="app">
+        Total Message : {{grand_total}}
+        <div class="row">
+            <div class="col">
+                <message-board title = 'ghorai' v-on:add-to-grand-total="add_grand_total"></message-board>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

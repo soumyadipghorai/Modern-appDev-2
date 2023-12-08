@@ -8,20 +8,16 @@
 </head>
 <body>
     <div id="app">
-        <p>Total Messages received unit now : {{global_count}}</p>
-        <table>
-            <tr>
-                <td>
-                    <message-board title = "board-1" v-on:add-to-global-total = "count_global"></message-board>
-                </td>
-                <td>
-                    <message-board title = "board-2" v-on:add-to-global-total = "count_global"></message-board>
-                </td>
-                <td>
-                    <message-board title = "board-3" v-on:add-to-global-total = "count_global"></message-board>
-                </td>
-            </tr>
-        </table>
+        <p>{{message}}</p>
+        Your Name: <input type="text" v-model = "visitor_name">
+        <p v-if = "count == 0">No replies yet </p>
+        <p v-else-if = "count > 10">You are very popular </p>
+        <p v-else>Number of replies {{count}}</p>
+        
+        <button v-on:click = "sayHi">Say Hi</button>
+        <ul>
+            <li v-for = "name in visitors">{{name}}</li>
+        </ul>
     </div>
 </body>
 <script type="text/javascript" src="app.js"></script>
