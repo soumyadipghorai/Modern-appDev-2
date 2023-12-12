@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- is_authenticated comes from UserMixin  -->
+    {% if current_user.is_authenticated %}
+        <p>Hi {{current_user.user_name}}, welcome</p>
+        <p>Your Role: </p>
+        {% for role in current_user.roles %}
+            {{role.name}}
+        {% endfor %}
+        <a href="/logout">Logout</a>
+    {% else %}
+        <a href="/login">Login</a> or <a href="/register">Register</a>
+    {% endif %}
+</body>
+</html>

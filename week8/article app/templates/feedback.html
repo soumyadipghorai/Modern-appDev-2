@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{url_for('static', filename = 'js/validate.js')}}"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Feedback</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div>{{error}}</div>
+                <form action="/feedback" method="post" onsubmit = "validate(event)">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback">Feedback</label>
+                        <input type="text" class="form-control" id="feedback" name="feedback" rows="5" required>
+                    </div>
+                    <div class="form-group">
+                        <button ontype='submit' class="btn btn-primary my-2">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                side bar
+            </div>
+        </div>
+    </div>
+</body>
+</html>
