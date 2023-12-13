@@ -116,11 +116,3 @@ class UserAPI(Resource) :
         db.session.add(new_user)
         db.session.commit()
         return "", 201
-    
-test_api_resource_fields = {
-    'msg' : fields.String
-}
-
-class TestAPI(Resource) :
-    def get(self) : 
-        return marshal_with({"msg" : "hello world"}, test_api_resource_fields)

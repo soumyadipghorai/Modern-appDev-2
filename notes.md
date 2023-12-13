@@ -194,3 +194,36 @@ implemented using `Promise`
 
 Axios --> custom API library with similar functionality to fetch  
 
+### persistent storage 
+* **cookies :** js setCookie() can be used for simple data, limited storage 
+* **localstorage : ** API to save simple key value entries. complex objects should be stringfied - use JSON
+* **indexedDB : ** transactional database system, object oriented JS-based DB, store and retrieve objects with a key 
+
+* js can't read .vue files so compiled into html css and js 1st. 
+
+
+### state management pattern 
+* state --> view --> actions --> state 
+
+### Vuex concepts :
+* single shared state object 
+* components can still have local state 
+* getter methods 
+* access within components --> `this.$store`
+
+
+commands : 
+
+```
+install node
+install nmp 
+install vue cli 
+
+npm i -g @vue/cli-service-global # build project 
+
+vue --help 
+
+vue serve app.vue 
+
+vue build app.vue
+```

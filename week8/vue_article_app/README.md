@@ -1,0 +1,11 @@
+env 
+application
+db_directory 
+static 
+templates
+.gitignore 
+local_run.sh 
+local_setup.sh 
+main.py 
+readme.md 
+requirements.txt 
