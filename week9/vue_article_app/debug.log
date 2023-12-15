@@ -1449,3 +1449,6 @@ Traceback (most recent call last):
     ^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
 2023-12-14 21:51:53,866 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:51:53,951 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:51:54,412 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:51:54,414 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473

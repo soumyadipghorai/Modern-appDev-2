@@ -1,0 +1,1568 @@
+2023-08-04 22:53:01,512 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:53:01,516 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:53:05,886 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:53:05,911 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:53:05] "GET / HTTP/1.1" 200 -
+2023-08-04 22:53:05,923 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:53:05] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:53:05,981 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:53:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:54:52,810 DEBUG main Thread-5 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:54:52,817 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:54:52] "GET / HTTP/1.1" 200 -
+2023-08-04 22:54:52,839 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:54:52] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:54:52,845 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:54:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:55:15,373 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-04 22:55:15,374 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-04 22:55:15,375 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:55:16,093 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:55:16,096 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:55:16,136 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:55:16,151 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:55:16] "GET / HTTP/1.1" 200 -
+2023-08-04 22:55:16,166 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:55:16] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:55:16,231 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:55:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:56:28,943 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\config.py', reloading
+2023-08-04 22:56:29,077 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:56:30,064 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:56:30,068 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:56:34,352 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 22:56:34,456 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:56:35,289 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:56:35,292 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:57:02,579 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 22:57:02,684 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 22:57:03,608 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 22:57:03,611 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 22:57:08,169 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 22:57:08,194 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:08] "GET / HTTP/1.1" 200 -
+2023-08-04 22:57:08,206 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:08] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 22:57:08,271 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 22:57:09,815 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "[35m[1mGET /articles_by/ghorai HTTP/1.1[0m" 500 -
+2023-08-04 22:57:09,838 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-04 22:57:09,841 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-04 22:57:09,861 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-04 22:57:09,898 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:09] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-04 22:57:55,462 INFO werkzeug Thread-10 (process_request_thread) :  * To enable the debugger you need to enter the security pin:
+2023-08-04 22:57:55,463 INFO werkzeug Thread-10 (process_request_thread) :  * Debugger pin code: 917-656-372
+2023-08-04 22:57:55,463 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:57:55] "GET /articles_by/ghorai?__debugger__=yes&cmd=printpin&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:58:54,468 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:58:54] "GET /articles_by/ghorai?__debugger__=yes&cmd=pinauth&pin=917-656-372&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:05,114 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:05] "GET /articles_by/ghorai?&__debugger__=yes&cmd=val&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:08,928 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:08] "GET /articles_by/ghorai?&__debugger__=yes&cmd=10/2&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:17,566 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:17] "GET /articles_by/ghorai?&__debugger__=yes&cmd=dump()&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 22:59:17,588 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:17] "GET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=more.png HTTP/1.1" 200 -
+2023-08-04 22:59:41,563 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 22:59:41] "GET /articles_by/ghorai?&__debugger__=yes&cmd=user&frm=2740311211504&s=PVhXy5GW8OlaZ8j0pD4w HTTP/1.1" 200 -
+2023-08-04 23:00:51,304 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 23:00:51,612 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 23:00:54,276 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 23:00:54,279 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 23:01:18,659 DEBUG main Thread-6 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-04 23:01:18,677 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:01:18] "GET / HTTP/1.1" 200 -
+2023-08-04 23:01:18,699 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:01:18] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-04 23:01:18,759 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:01:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-04 23:02:21,869 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 23:02:22,013 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 23:02:22,999 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 23:02:23,002 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-04 23:03:00,852 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[35m[1mGET /articles_by/ghorai HTTP/1.1[0m" 500 -
+2023-08-04 23:03:00,955 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-04 23:03:00,958 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-04 23:03:00,967 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-04 23:03:00,977 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [04/Aug/2023 23:03:00] "[36mGET /articles_by/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-04 23:04:23,127 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week7\\example\\application\\controllers.py', reloading
+2023-08-04 23:04:23,288 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-04 23:04:24,453 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-04 23:04:24,457 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:33:31,021 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-05 12:33:31,028 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-05 12:33:31,029 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:33:31,820 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:33:31,878 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:33:36,832 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-05 12:33:36,895 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:36] "GET / HTTP/1.1" 200 -
+2023-08-05 12:33:36,957 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:36] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:33:37,257 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:37] "GET /static/style.css HTTP/1.1" 200 -
+2023-08-05 12:33:59,129 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:33:59] "[33mGET /search?q=flask HTTP/1.1[0m" 404 -
+2023-08-05 12:34:25,174 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:34:25] "[33mGET /search?q=bootstrap HTTP/1.1[0m" 404 -
+2023-08-05 12:34:40,657 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:34:40,866 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:34:42,026 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:34:42,031 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:34:42,067 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:34:42] "[33mGET /search?q=bootstrap HTTP/1.1[0m" 404 -
+2023-08-05 12:34:48,343 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:34:48] "[33mGET /search?q=bootstrap HTTP/1.1[0m" 404 -
+2023-08-05 12:35:15,163 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:35:15,325 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:35:16,634 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:35:16,634 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:35:16,797 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:16] "GET /search?q=bootstrap HTTP/1.1" 200 -
+2023-08-05 12:35:16,809 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:16] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:35:16,867 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:35:43,722 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:43] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:35:43,744 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:43] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:35:43,755 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:35:45,575 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:45] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:35:45,594 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:45] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:35:45,598 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:35:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:36:07,032 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:36:07,169 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:36:08,122 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:36:08,130 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:36:08,636 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:08] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:36:08,658 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:08] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:36:08,734 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:36:38,112 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 12:36:38,227 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 12:36:39,176 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 12:36:39,176 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 12:36:40,003 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:40] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:36:40,031 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:40] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:36:40,101 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:36:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 12:38:15,214 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:38:15] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 12:38:15,231 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:38:15] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 12:38:15,235 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 12:38:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:08:07,616 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:08:07,834 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:08:09,088 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:08:09,088 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:08:10,327 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "[35m[1mGET /search?q=Bootstrap HTTP/1.1[0m" 500 -
+2023-08-05 13:08:10,426 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-05 13:08:10,439 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-05 13:08:10,461 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-05 13:08:10,477 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:10] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-05 13:08:16,406 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:08:16,593 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:08:17,546 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:08:17,554 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:08:17,604 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:17] "GET /search?q=Bootstrap HTTP/1.1" 200 -
+2023-08-05 13:08:17,619 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:17] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 13:08:17,675 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:08:55,702 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:55] "GET /search?q=lorem HTTP/1.1" 200 -
+2023-08-05 13:08:55,725 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:55] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 13:08:55,734 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:08:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:27:27,828 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\models.py', reloading
+2023-08-05 13:27:27,948 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:27:29,138 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:27:29,144 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:27:34,632 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\models.py', reloading
+2023-08-05 13:27:34,748 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:27:35,750 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:27:35,752 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:29:10,724 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:29:10,968 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:29:12,052 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:29:12,055 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:29:17,565 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[35m[1mGET /search?q=lorem HTTP/1.1[0m" 500 -
+2023-08-05 13:29:17,661 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-05 13:29:17,662 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-05 13:29:17,677 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-05 13:29:17,693 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:17] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-05 13:29:25,022 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week8\\example\\application\\controllers.py', reloading
+2023-08-05 13:29:25,164 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-05 13:29:26,281 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-05 13:29:26,292 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-05 13:29:26,347 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:26] "GET /search?q=lorem HTTP/1.1" 200 -
+2023-08-05 13:29:26,369 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:26] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-05 13:29:26,422 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [05/Aug/2023 13:29:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-24 22:24:37,137 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-24 22:24:37,142 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-24 22:24:37,145 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-24 22:24:38,326 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-24 22:24:38,483 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-24 22:26:34,773 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-24 22:26:34,861 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:26:34] "GET / HTTP/1.1" 200 -
+2023-08-24 22:26:34,920 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:26:34] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-24 22:26:35,146 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:26:35] "GET /static/style.css HTTP/1.1" 200 -
+2023-08-24 22:26:35,520 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:26:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-24 22:29:49,157 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:29:49] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:29:53,129 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:29:53] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:30:05,073 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:30:05] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:30:06,850 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:30:06] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:30:17,058 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-24 22:30:17,058 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-24 22:30:17,061 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-24 22:30:17,988 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-24 22:30:18,003 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-24 22:30:18,395 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:30:18] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:31:08,497 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:31:08] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:31:50,582 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-24 22:31:50,582 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-24 22:31:50,582 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-24 22:31:51,367 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-24 22:31:51,367 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-24 22:32:05,750 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:32:05] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:35:32,503 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:32] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:35:38,016 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:38] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:35:40,359 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:40] "[33mGET /feedback HTTP/1.1[0m" 404 -
+2023-08-24 22:35:42,305 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:42] "[33mGET /= HTTP/1.1[0m" 404 -
+2023-08-24 22:35:45,445 DEBUG main Thread-9 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-24 22:35:45,461 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:45] "GET / HTTP/1.1" 200 -
+2023-08-24 22:35:45,743 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:45] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-24 22:35:45,913 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-24 22:35:57,031 DEBUG main Thread-14 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-24 22:35:57,036 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:57] "GET / HTTP/1.1" 200 -
+2023-08-24 22:35:57,339 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:57] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-24 22:35:57,378 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:35:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-24 22:36:05,188 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:05] "[35m[1mGET /search HTTP/1.1[0m" 500 -
+2023-08-24 22:36:05,252 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:05] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-24 22:36:05,336 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:05] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-24 22:36:05,723 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:05] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-24 22:36:05,986 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:05] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-24 22:36:10,337 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:10] "[35m[1mGET /search HTTP/1.1[0m" 500 -
+2023-08-24 22:36:10,621 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:10] "[36mGET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-24 22:36:10,669 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:10] "[36mGET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-24 22:36:11,020 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:11] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-24 22:36:11,271 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:36:11] "[36mGET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-24 22:37:27,044 DEBUG main Thread-29 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-24 22:37:27,052 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:37:27] "GET / HTTP/1.1" 200 -
+2023-08-24 22:37:27,080 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:37:27] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-24 22:37:27,386 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:37:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-24 22:37:51,101 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-24 22:37:51,101 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-24 22:37:51,103 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-24 22:37:51,969 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-24 22:37:51,972 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-24 22:38:54,254 INFO werkzeug MainThread :  * Detected change in 'C:\\Users\\Computer\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-24 22:38:54,421 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-24 22:38:55,421 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-24 22:38:55,424 INFO werkzeug MainThread :  * Debugger PIN: 917-656-372
+2023-08-24 22:38:58,745 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:38:58] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:42:08,463 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:42:08] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:42:16,966 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:42:16] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:42:43,470 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:42:43] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:43:24,525 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:43:24] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:43:40,334 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:43:40] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:43:41,784 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:43:41] "GET /feedback HTTP/1.1" 200 -
+2023-08-24 22:43:49,802 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [24/Aug/2023 22:43:49] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 10:58:19,170 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.159:8080
+2023-08-26 10:58:19,170 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-08-26 10:58:19,170 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 10:58:20,744 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 10:58:20,744 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 10:58:28,301 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 10:58:28,382 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 10:58:28] "GET / HTTP/1.1" 200 -
+2023-08-26 10:58:28,439 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 10:58:28] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 10:58:28,584 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 10:58:28] "GET /static/style.css HTTP/1.1" 200 -
+2023-08-26 10:58:28,985 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 10:58:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-26 10:58:36,160 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 10:58:36] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 10:58:45,644 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 10:58:45] "POST /feedback HTTP/1.1" 200 -
+2023-08-26 11:00:05,601 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:00:05] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:00:12,631 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:00:12] "POST /feedback HTTP/1.1" 200 -
+2023-08-26 11:06:07,107 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:06:07] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:06:07,141 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:06:07] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:06:30,269 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:06:30] "POST /feedback HTTP/1.1" 200 -
+2023-08-26 11:06:31,796 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:06:31] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:07:53,819 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:07:53,941 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:07:54,783 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:07:54,787 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:08:48,244 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:08:48,325 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:08:50,002 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:08:50,002 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:09:05,798 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:05] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:09:06,001 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:06] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:09:16,690 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:09:16,869 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:09:18,335 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:09:18,340 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:09:19,506 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:19] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:09:19,636 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:19] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:09:47,287 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:47] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:09:47,592 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:47] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:09:53,068 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:53] "[35m[1mPOST /feedback HTTP/1.1[0m" 500 -
+2023-08-26 11:09:53,109 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:53] "GET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-08-26 11:09:53,310 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:53] "GET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-08-26 11:09:53,703 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:53] "GET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-08-26 11:09:53,942 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:09:53] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-26 11:10:12,511 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:10:12,643 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:10:13,750 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:10:13,750 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:10:14,646 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:14] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:10:14,775 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:14] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:10:19,774 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:19] "[35m[1mPOST /feedback HTTP/1.1[0m" 500 -
+2023-08-26 11:10:20,040 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:20] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:10:20,102 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:20] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-08-26 11:10:20,436 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:20] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-26 11:10:20,705 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:20] "[36mGET /feedback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-08-26 11:10:36,954 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:10:37,070 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:10:38,062 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:10:38,071 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:10:39,751 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:39] "GET /feedback HTTP/1.1" 200 -
+2023-08-26 11:10:39,890 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:39] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:10:44,641 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:44] "POST /feedback HTTP/1.1" 200 -
+2023-08-26 11:10:44,934 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:10:44] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:15:06,972 DEBUG main Thread-6 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:15:07,012 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:15:07] "GET / HTTP/1.1" 200 -
+2023-08-26 11:15:07,034 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:15:07] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:15:07,211 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:15:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:15:37,839 DEBUG main Thread-9 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:15:37,853 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:15:37] "GET / HTTP/1.1" 200 -
+2023-08-26 11:15:37,885 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:15:37] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:15:38,101 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:15:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:17:19,552 DEBUG main Thread-12 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:17:19,584 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:17:19] "GET / HTTP/1.1" 200 -
+2023-08-26 11:17:19,627 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:17:19] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:17:19,808 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:17:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:19:29,365 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:19:29,471 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:19:30,217 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:19:30,221 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:19:51,130 INFO werkzeug MainThread :  * Detected change in 'D:\\Desktop\\visual studio\\end to end\\ModernAppDev\\week9\\example\\application\\controllers.py', reloading
+2023-08-26 11:19:51,233 INFO werkzeug MainThread :  * Restarting with stat
+2023-08-26 11:19:51,951 WARNING werkzeug MainThread :  * Debugger is active!
+2023-08-26 11:19:51,954 INFO werkzeug MainThread :  * Debugger PIN: 969-705-264
+2023-08-26 11:20:28,449 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:20:28,490 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:20:28] "GET / HTTP/1.1" 200 -
+2023-08-26 11:20:28,504 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:20:28] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:20:28,744 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:20:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:23:42,487 DEBUG main Thread-5 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:23:42,519 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:23:42] "GET / HTTP/1.1" 200 -
+2023-08-26 11:23:42,535 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:23:42] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:23:42,753 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:23:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:27:03,163 DEBUG main Thread-8 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:27:03,178 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:27:03] "GET / HTTP/1.1" 200 -
+2023-08-26 11:27:03,198 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:27:03] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:27:03,417 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:27:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:27:15,396 DEBUG main Thread-11 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:27:15,401 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:27:15] "GET / HTTP/1.1" 200 -
+2023-08-26 11:27:15,413 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:27:15] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:27:15,663 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:27:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:28:07,283 DEBUG main Thread-14 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:28:07,307 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:28:07] "GET / HTTP/1.1" 200 -
+2023-08-26 11:28:07,320 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:28:07] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:28:07,534 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:28:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:28:07,626 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:28:07] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:39:37,007 DEBUG main Thread-18 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:39:37,022 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:37] "GET / HTTP/1.1" 200 -
+2023-08-26 11:39:37,041 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:37] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:39:37,273 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:39:37,350 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:37] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:39:40,220 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:40] "[33mGET /article_like/ HTTP/1.1[0m" 404 -
+2023-08-26 11:39:58,802 DEBUG main Thread-23 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:39:58,807 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:58] "GET / HTTP/1.1" 200 -
+2023-08-26 11:39:59,112 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:59] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:39:59,133 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:39:59,135 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:39:59] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:41:22,892 DEBUG main Thread-29 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:41:22,923 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:41:22] "GET / HTTP/1.1" 200 -
+2023-08-26 11:41:22,939 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:41:22] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:41:23,158 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:41:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:41:23,251 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:41:23] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:41:30,656 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:41:30] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:44:04,522 DEBUG main Thread-35 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:44:04,540 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:04] "GET / HTTP/1.1" 200 -
+2023-08-26 11:44:04,564 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:04] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:44:04,785 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:44:04,879 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:04] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:44:05,940 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:05] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:44:06,353 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:06] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:44:07,779 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:07] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:44:08,135 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:44:08] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:46:20,582 DEBUG main Thread-43 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:46:20,589 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:46:20] "GET / HTTP/1.1" 200 -
+2023-08-26 11:46:20,609 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:46:20] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:46:20,847 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:46:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:46:20,925 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:46:20] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:46:22,246 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:46:22] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:46:25,444 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:46:25] "GET /article_like/2 HTTP/1.1" 200 -
+2023-08-26 11:48:02,394 DEBUG main Thread-49 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:48:02,401 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:02] "GET / HTTP/1.1" 200 -
+2023-08-26 11:48:02,417 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:02] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:48:02,662 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:48:02,725 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:02] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-08-26 11:48:04,262 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:04] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:22,279 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:22] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:22,817 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:22] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:23,081 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:23] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:23,144 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:23] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:36,445 DEBUG main Thread-58 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:48:36,450 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:36] "GET / HTTP/1.1" 200 -
+2023-08-26 11:48:36,752 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:36] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:48:36,786 INFO werkzeug Thread-60 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:48:36,789 INFO werkzeug Thread-61 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:36] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:48:39,156 INFO werkzeug Thread-62 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:39] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:39,419 INFO werkzeug Thread-63 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:39] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:39,526 INFO werkzeug Thread-64 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:39] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:39,730 INFO werkzeug Thread-65 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:39] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:39,886 INFO werkzeug Thread-66 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:39] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:40,061 INFO werkzeug Thread-67 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:40] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:40,235 INFO werkzeug Thread-68 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:40] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:40,402 INFO werkzeug Thread-69 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:40] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:40,558 INFO werkzeug Thread-70 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:40] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:41,807 DEBUG main Thread-71 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-08-26 11:48:41,815 INFO werkzeug Thread-71 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:41] "GET / HTTP/1.1" 200 -
+2023-08-26 11:48:42,105 INFO werkzeug Thread-72 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:42] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-08-26 11:48:42,138 INFO werkzeug Thread-73 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-08-26 11:48:42,139 INFO werkzeug Thread-74 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:42] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-08-26 11:48:47,591 INFO werkzeug Thread-75 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:47] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:47,841 INFO werkzeug Thread-76 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:47] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:47,899 INFO werkzeug Thread-77 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:47] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:48,163 INFO werkzeug Thread-78 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:48] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:48,209 INFO werkzeug Thread-79 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:48] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:48,478 INFO werkzeug Thread-80 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:48] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:48,525 INFO werkzeug Thread-81 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:48] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:48,794 INFO werkzeug Thread-82 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:48] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:48,844 INFO werkzeug Thread-83 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:48] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:49,102 INFO werkzeug Thread-84 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:49] "GET /article_like/1 HTTP/1.1" 200 -
+2023-08-26 11:48:49,177 INFO werkzeug Thread-85 (process_request_thread) : 127.0.0.1 - - [26/Aug/2023 11:48:49] "GET /article_like/1 HTTP/1.1" 200 -
+2023-12-13 01:55:23,390 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-13 01:55:23,390 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-13 01:55:23,390 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-13 01:55:24,112 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-13 01:55:24,112 INFO werkzeug MainThread :  * Debugger PIN: 196-043-149
+2023-12-13 02:00:48,057 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:00:48,089 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:00:48] "GET / HTTP/1.1" 200 -
+2023-12-13 02:00:48,105 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:00:48] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:00:48,275 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:00:48] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-13 02:00:48,275 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:00:48] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-13 02:00:48,337 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:00:48] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-12-13 02:01:16,873 DEBUG main Thread-7 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:01:16,891 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:01:16] "GET / HTTP/1.1" 200 -
+2023-12-13 02:01:16,911 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:01:16] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:01:16,911 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:01:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:01:16,924 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:01:16] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:01:16,924 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:01:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-13 02:04:08,474 DEBUG main Thread-12 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:04:08,515 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-12-13 02:04:08,543 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:08] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-13 02:04:08,543 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:08] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-13 02:04:08,633 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:08] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-13 02:04:08,656 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-13 02:04:17,776 DEBUG main Thread-17 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:04:17,780 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:17] "GET / HTTP/1.1" 200 -
+2023-12-13 02:04:17,797 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:17] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:04:17,797 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:04:17,804 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:17] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:04:17,804 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:04:17] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-13 02:06:11,357 DEBUG main Thread-22 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:06:11,375 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:11] "GET / HTTP/1.1" 200 -
+2023-12-13 02:06:11,398 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:11] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:06:11,398 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:06:11,409 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:11] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-13 02:06:11,415 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:11] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:06:11,415 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:11] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-13 02:06:45,648 DEBUG main Thread-28 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:06:45,663 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:45] "GET / HTTP/1.1" 200 -
+2023-12-13 02:06:45,680 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:45] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:06:45,688 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:06:45,688 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:45] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-13 02:06:45,696 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:45] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:06:45,696 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:06:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-13 02:07:30,918 DEBUG main Thread-34 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:07:30,926 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:07:30] "GET / HTTP/1.1" 200 -
+2023-12-13 02:07:30,941 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:07:30] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:07:30,946 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:07:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:07:30,950 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:07:30] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-13 02:07:30,950 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:07:30] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:07:30,956 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:07:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-13 02:09:44,855 DEBUG main Thread-40 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:09:44,863 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:09:44] "GET / HTTP/1.1" 200 -
+2023-12-13 02:09:44,879 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:09:44] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:09:44,879 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:09:44,887 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:09:44] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-13 02:09:44,891 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:09:44] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:09:44,896 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:09:44] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-13 02:10:10,278 DEBUG main Thread-46 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-13 02:10:10,284 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:10:10] "GET / HTTP/1.1" 200 -
+2023-12-13 02:10:10,302 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:10:10] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-13 02:10:10,308 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:10:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-13 02:10:10,308 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:10:10] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-13 02:10:10,308 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:10:10] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-13 02:10:10,318 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [13/Dec/2023 02:10:10] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-14 01:31:40,379 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 01:31:40,379 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 01:31:40,380 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:31:40,998 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:31:41,000 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:34:14,417 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\workers.py', reloading
+2023-12-14 01:34:14,490 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:34:15,463 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:34:15,465 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:34:37,832 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\workers.py', reloading
+2023-12-14 01:34:37,996 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:34:38,838 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:34:38,842 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:35:13,443 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\main.py', reloading
+2023-12-14 01:35:13,558 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:35:14,307 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:35:14,309 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:35:58,256 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\main.py', reloading
+2023-12-14 01:35:58,350 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:35:59,189 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:35:59,192 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:36:09,431 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\main.py', reloading
+2023-12-14 01:36:09,507 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:36:10,046 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:36:10,048 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:38:57,050 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\config.py', reloading
+2023-12-14 01:38:57,173 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:38:58,020 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:38:58,022 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:39:23,515 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\config.py', reloading
+2023-12-14 01:39:23,612 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:39:24,239 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:39:24,241 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:40:15,293 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\main.py', reloading
+2023-12-14 01:40:15,384 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:44:47,208 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 01:44:47,209 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 01:44:47,209 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 01:44:47,209 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 01:44:47,210 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 01:44:47,210 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 01:44:47,210 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 01:44:47,210 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 01:44:47,210 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 01:48:40,120 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 01:48:40,121 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 01:48:40,121 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:48:40,641 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:48:40,643 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:49:08,733 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-14 01:49:08,736 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:08] "GET / HTTP/1.1" 200 -
+2023-12-14 01:49:08,773 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:08] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-14 01:49:09,002 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:09] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-14 01:49:09,082 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:09] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-12-14 01:49:09,084 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:09] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-14 01:49:09,086 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:09] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-14 01:49:09,559 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:49:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-14 01:50:35,439 DEBUG celery.utils.functional Thread-10 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 01:50:35,504 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:50:35] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 01:51:50,648 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 01:51:50,817 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:51:51,573 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:51:51,575 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:52:38,537 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 01:52:38,608 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:52:39,178 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:52:39,180 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:52:46,435 DEBUG celery.utils.functional Thread-3 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 01:52:46,503 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 01:52:46] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 01:55:21,745 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 01:55:21,840 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:55:22,615 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:55:22,617 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:56:18,860 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 01:56:18,951 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:56:19,688 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:56:19,691 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:56:25,881 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 01:56:25,995 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:56:26,839 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:56:26,841 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:59:19,361 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 01:59:19,361 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 01:59:19,362 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 01:59:19,362 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 01:59:19,362 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 01:59:19,362 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 01:59:19,362 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 01:59:19,362 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 01:59:19,364 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 01:59:19,364 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 01:59:29,514 DEBUG celery.utils.functional Thread-3 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 01:59:47,556 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 01:59:47,556 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 01:59:47,557 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 01:59:48,252 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 01:59:48,254 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 01:59:48,280 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 02:00:51,934 DEBUG main Thread-6 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-14 02:00:51,945 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:00:51] "GET / HTTP/1.1" 200 -
+2023-12-14 02:00:52,265 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:00:52] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-14 02:00:52,277 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:00:52] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-14 02:00:52,349 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:00:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-14 02:00:52,352 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:00:52] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-14 02:00:52,353 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:00:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-14 02:01:54,234 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 02:01:54,417 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 02:01:55,364 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 02:01:55,366 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 02:01:55,397 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 02:01:55,412 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:55] "[35m[1mGET /hello/ghorai HTTP/1.1[0m" 500 -
+2023-12-14 02:01:55,413 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:55] "[35m[1mGET /hello/ghorai HTTP/1.1[0m" 500 -
+2023-12-14 02:01:55,780 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:55] "GET /hello/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-14 02:01:55,796 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:55] "GET /hello/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-14 02:01:55,995 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:55] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 02:01:56,096 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:56] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 02:01:56,098 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:56] "GET /hello/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-14 02:01:56,308 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:56] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 02:01:56,412 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:01:56] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 02:02:03,148 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:02:03] "[35m[1mGET /hello/ghorai HTTP/1.1[0m" 500 -
+2023-12-14 02:02:03,449 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:02:03] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 02:02:03,478 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:02:03] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 02:02:03,804 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:02:03] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 02:02:04,070 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:02:04] "[36mGET /hello/ghorai?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 02:02:26,006 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 02:02:26,096 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 02:02:26,737 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 02:02:26,737 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 02:02:29,843 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 02:02:29,932 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 02:02:30,480 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 02:02:30,480 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 02:02:33,551 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 02:02:33,607 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:02:33] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 02:03:46,446 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:03:46] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 02:04:07,511 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:04:07] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 02:06:09,261 DEBUG main Thread-8 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-14 02:06:09,278 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:06:09] "GET / HTTP/1.1" 200 -
+2023-12-14 02:06:09,296 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:06:09] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-14 02:06:09,580 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:06:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-14 02:06:09,600 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:06:09] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-14 02:06:09,600 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:06:09] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-14 02:06:09,600 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:06:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-14 02:07:09,800 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 02:07:09,800 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 02:07:09,801 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 02:07:09,801 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 02:07:09,801 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 02:07:09,801 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 02:07:09,801 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 02:07:09,802 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 02:07:09,802 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 02:07:09,802 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 02:07:25,447 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 02:07:25] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 02:10:26,762 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 02:10:26,763 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 02:10:26,763 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 02:10:26,763 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 02:10:26,763 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 02:10:26,763 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 02:10:26,764 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 02:10:26,764 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 02:10:26,764 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 02:10:26,764 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:26:35,410 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:26:35,750 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:26:36,402 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:26:36,404 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:26:40,586 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:26:40,586 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:26:40,587 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:26:56,514 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:26:56,570 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:26:56] "GET /hello/ghorai HTTP/1.1" 200 -
+2023-12-14 21:27:00,684 DEBUG main Thread-3 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-14 21:27:00,691 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:27:00] "GET / HTTP/1.1" 200 -
+2023-12-14 21:27:00,718 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:27:00] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-14 21:27:01,029 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:27:01] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-14 21:27:01,116 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:27:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-14 21:27:01,119 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:27:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:27:01,119 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:27:01] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-14 21:27:38,357 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:27:38,541 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:27:39,173 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:27:39,175 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:28:12,604 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:28:12,789 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:28:13,526 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:28:13,529 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:28:55,390 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:28:55,563 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:28:56,413 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:28:56,416 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:29:13,093 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:29:13,283 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:29:13,936 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:29:13,938 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:29:35,899 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:29:36,125 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:29:36,739 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:29:36,741 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:29:49,197 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:29:49,331 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:29:49,843 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:29:49,845 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:29:52,935 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:29:53,000 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:29:53,462 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:29:53,463 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:30:15,324 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:30:15,433 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:30:15,973 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:30:15,975 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:30:54,617 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:30:54,728 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:31:08,928 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 21:31:08,928 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 21:31:08,928 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:31:09,350 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:31:09,351 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:31:13,341 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-14 21:31:13,341 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:13] "GET / HTTP/1.1" 200 -
+2023-12-14 21:31:13,360 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:13] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-14 21:31:13,607 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:31:13,685 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:13] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-14 21:31:13,689 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:13] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-14 21:31:13,689 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-14 21:31:23,095 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:23] "[32mGET /hello2 HTTP/1.1[0m" 308 -
+2023-12-14 21:31:23,100 DEBUG celery.utils.functional Thread-9 (process_request_thread) : 
+def print_current_time_job(name):
+    return 1
+
+2023-12-14 21:31:23,108 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:23] "[35m[1mGET /hello2/ HTTP/1.1[0m" 500 -
+2023-12-14 21:31:23,399 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:23] "GET /hello2/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-12-14 21:31:23,435 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:23] "GET /hello2/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-12-14 21:31:23,768 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:23] "GET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-12-14 21:31:24,019 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:31:24] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:32:27,053 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:32:27,117 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:32:27,594 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:32:27,595 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:32:29,764 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:32:29,845 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:29] "[35m[1mGET /hello2/ HTTP/1.1[0m" 500 -
+2023-12-14 21:32:29,878 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:29] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:32:30,011 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:30] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 21:32:30,354 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:30] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:32:30,611 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:30] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:32:39,703 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:39] "[35m[1mGET /hello2/ HTTP/1.1[0m" 500 -
+2023-12-14 21:32:39,986 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:39] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:32:40,032 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:40] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 21:32:40,369 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:40] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:32:40,636 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:32:40] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:32:55,332 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:32:55,398 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:32:55,855 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:32:55,857 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:32:59,967 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:33:00,054 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:00] "[35m[1mGET /hello2/ HTTP/1.1[0m" 500 -
+2023-12-14 21:33:00,086 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:00] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:33:00,215 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:00] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 21:33:00,547 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:00] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:33:00,814 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:00] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:33:23,593 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:33:23,661 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:33:24,163 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:33:24,163 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:33:25,265 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:33:25,337 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:25] "[35m[1mGET /hello2/ HTTP/1.1[0m" 500 -
+2023-12-14 21:33:25,367 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:25] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:33:25,523 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:25] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 21:33:25,852 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:25] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:33:26,119 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:33:26] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:34:11,788 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:34:11,922 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:34:12,419 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:34:12,419 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:34:18,590 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:34:18,655 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:34:18] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:35:30,803 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:35:30] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:36:17,546 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:36:17,650 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:36:18,251 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:36:18,251 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:36:18,756 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:36:18,822 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:36:18] "[35m[1mGET /hello2/ HTTP/1.1[0m" 500 -
+2023-12-14 21:36:18,852 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:36:18] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-12-14 21:36:19,001 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:36:19] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-12-14 21:36:19,347 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:36:19] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:36:19,599 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:36:19] "[36mGET /hello2/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-12-14 21:36:46,921 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:36:47,019 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:36:47,690 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:36:47,691 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:36:50,613 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:36:50,685 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:36:50] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:37:04,665 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:37:04] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:37:20,474 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:37:20,555 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:37:20,986 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:37:20,986 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:37:23,804 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:37:23,856 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:37:23] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:37:27,558 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:37:27] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:38:43,781 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\controllers.py', reloading
+2023-12-14 21:38:43,905 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:38:44,494 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:38:44,495 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:40:20,669 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:40:20,774 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:40:21,310 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:40:21,313 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:40:48,570 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:40:48,571 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:40:48,571 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x000002951290AA20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:45:54,638 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:45:54,639 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:45:54,639 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:45:54,639 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:45:54,639 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:45:54,639 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x0000011867C0A7A0> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:46:20,956 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:46:20,956 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:46:20,956 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:46:20,956 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:46:20,956 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:46:20,957 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:46:20,957 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:46:20,957 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:46:20,957 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:46:20,957 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:46:20,957 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:46:20,958 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x000002788EEDAA20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:46:57,934 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:46:57,934 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:46:57,934 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:46:57,935 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:46:57,936 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:46:57,936 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x000002331393A7A0> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:48:24,708 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 21:48:24,708 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 21:48:24,708 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:48:25,185 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:48:25,201 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 21:48:26,771 DEBUG celery.utils.functional Thread-2 (process_request_thread) : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:48:26,827 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:48:26] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:49:58,515 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:49:58,515 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x000001DB7AA9AA20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:50:13,854 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:50:13] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:50:31,277 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:50:31,277 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:50:31,277 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:50:31,277 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:50:31,277 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:50:31,277 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:50:31,278 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:50:31,278 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:50:31,278 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:50:31,278 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:50:31,278 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:50:31,278 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x00000227023CAA20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:50:35,652 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:50:35] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:50:55,126 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:50:55,127 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:50:55,127 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:50:55,127 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:50:55,127 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:50:55,127 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:50:55,127 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:50:55,128 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:50:55,128 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:50:55,128 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:50:55,128 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:50:55,129 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x0000027D54FBAA20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:50:59,653 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Dec/2023 21:50:59] "GET /hello2/ HTTP/1.1" 200 -
+2023-12-14 21:51:09,475 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 21:51:09,475 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 21:51:09,475 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 21:51:09,475 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 21:51:09,475 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 21:51:09,476 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 21:51:09,476 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 21:51:09,476 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 21:51:09,476 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 21:51:09,476 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 21:51:09,476 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 21:51:09,477 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x000002C660E0AA20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\application\tasks.py", line 7, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 21:51:53,866 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week9\\vue_article_app\\application\\tasks.py', reloading
+2023-12-14 21:51:53,951 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 21:51:54,412 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 21:51:54,414 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 23:33:15,290 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 23:33:15,290 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 23:33:15,290 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 23:33:15,717 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 23:33:15,717 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 23:54:07,886 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 23:54:07,886 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,888 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x0000026B7DADBE20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week10\vue_article_app\application\tasks.py", line 8, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 23:55:21,251 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,251 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,253 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 23:55:21,254 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x0000020B9BDB00E0> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week10\vue_article_app\application\tasks.py", line 8, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
