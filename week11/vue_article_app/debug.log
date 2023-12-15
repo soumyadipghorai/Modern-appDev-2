@@ -1452,10 +1452,205 @@ AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you me
 2023-12-14 21:51:53,951 INFO werkzeug MainThread :  * Restarting with stat
 2023-12-14 21:51:54,412 WARNING werkzeug MainThread :  * Debugger is active!
 2023-12-14 21:51:54,414 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
-2023-12-15 12:40:12,251 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
-2023-12-15 12:40:12,278 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:12] "GET / HTTP/1.1" 200 -
-2023-12-15 12:40:12,329 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:12] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
-2023-12-15 12:40:12,401 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:12] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
-2023-12-15 12:40:12,634 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:12] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
-2023-12-15 12:40:12,637 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2023-12-15 12:40:12,637 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-14 23:33:15,290 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-14 23:33:15,290 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-14 23:33:15,290 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-14 23:33:15,717 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-14 23:33:15,717 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-14 23:54:07,886 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 23:54:07,886 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 23:54:07,887 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 23:54:07,888 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 23:54:07,888 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x0000026B7DADBE20> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week10\vue_article_app\application\tasks.py", line 8, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-14 23:55:21,251 DEBUG celery.utils.functional MainThread : 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,251 DEBUG celery.utils.functional MainThread : 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def print_current_time_job():
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def chunks(task, it, n):
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def just_say_hello(name):
+    return 1
+
+2023-12-14 23:55:21,252 DEBUG celery.utils.functional MainThread : 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,253 DEBUG celery.utils.functional MainThread : 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def xmap(task, it):
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def backend_cleanup():
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def chain(*args, **kwargs):
+    return 1
+
+2023-12-14 23:55:21,254 DEBUG celery.utils.functional MainThread : 
+def xstarmap(task, it):
+    return 1
+
+2023-12-14 23:55:21,254 ERROR celery.utils.dispatch.signal MainThread : Signal handler <function setup_periodic_tasks at 0x0000020B9BDB00E0> raised: AttributeError("'Celery' object has no attribute 'add_pediodic_task'")
+Traceback (most recent call last):
+  File "D:\codes_old\end_to_end\ModernAppDev2\week9\vue_article_app\env\Lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\codes_old\end_to_end\ModernAppDev2\week10\vue_article_app\application\tasks.py", line 8, in setup_periodic_tasks
+    sender.add_pediodic_task(10.0, print_current_time_job.s(), name = "at every 10 seconds")
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Celery' object has no attribute 'add_pediodic_task'. Did you mean: 'add_periodic_task'?
+2023-12-15 12:40:00,779 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-15 12:40:00,780 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-15 12:40:00,780 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-15 12:40:01,252 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-15 12:40:01,254 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-15 12:40:48,606 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:40:48,635 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:48] "GET / HTTP/1.1" 200 -
+2023-12-15 12:40:48,651 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:48] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:40:48,884 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:48] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:40:49,091 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:49] "GET /static/js/app.js HTTP/1.1" 200 -
+2023-12-15 12:40:49,181 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:49] "GET /static/style.css HTTP/1.1" 200 -
+2023-12-15 12:40:49,213 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:40:49] "GET /static/js/validate.js HTTP/1.1" 200 -
+2023-12-15 12:56:45,732 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.162:8080
+2023-12-15 12:56:45,733 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-12-15 12:56:45,733 INFO werkzeug MainThread :  * Restarting with stat
+2023-12-15 12:56:46,183 WARNING werkzeug MainThread :  * Debugger is active!
+2023-12-15 12:56:46,184 INFO werkzeug MainThread :  * Debugger PIN: 750-838-473
+2023-12-15 12:56:51,627 DEBUG main Thread-2 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:56:51,627 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:51] "GET / HTTP/1.1" 200 -
+2023-12-15 12:56:51,643 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:51] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:56:51,863 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:56:51,960 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:51] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:56:51,960 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:51] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:51,960 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:53,767 DEBUG main Thread-8 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:56:53,770 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:53] "GET / HTTP/1.1" 200 -
+2023-12-15 12:56:53,781 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:53] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:56:54,019 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:56:54,097 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:54] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:56:54,097 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:54] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:54,097 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:56,228 DEBUG main Thread-14 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:56:56,228 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:56] "GET / HTTP/1.1" 200 -
+2023-12-15 12:56:56,243 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:56] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:56:56,489 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:56:56,552 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:56] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:56,552 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:56] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:56:56,552 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:57,979 DEBUG main Thread-20 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:56:57,979 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:57] "GET / HTTP/1.1" 200 -
+2023-12-15 12:56:57,994 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:57] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:56:58,251 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:56:58,319 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:58] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:56:58,319 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:58] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:58,319 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:59,654 DEBUG main Thread-26 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:56:59,654 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:59] "GET / HTTP/1.1" 200 -
+2023-12-15 12:56:59,670 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:59] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:56:59,919 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:56:59,984 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:59] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:56:59,984 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:56:59,984 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:56:59] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:01,720 DEBUG main Thread-32 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:57:01,720 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:01] "GET / HTTP/1.1" 200 -
+2023-12-15 12:57:01,720 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:01] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:57:01,979 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:01] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:57:02,045 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:02] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:02,045 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:02,045 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:57:03,894 DEBUG main Thread-38 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:57:03,900 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:03] "GET / HTTP/1.1" 200 -
+2023-12-15 12:57:03,914 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:03] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:57:04,142 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:57:04,225 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:04] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:57:04,225 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:04,225 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:04] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:05,781 DEBUG main Thread-44 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:57:05,787 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:05] "GET / HTTP/1.1" 200 -
+2023-12-15 12:57:05,806 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:05] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:57:06,052 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:06] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:57:06,117 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:06,117 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:06] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:06,117 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:57:07,859 DEBUG main Thread-50 (process_request_thread) : In articles, returning from DB [<Article 1>, <Article 2>, <Article 3>, <Article 4>, <Article 5>]
+2023-12-15 12:57:07,865 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:07] "GET / HTTP/1.1" 200 -
+2023-12-15 12:57:07,874 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:07] "[33mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2023-12-15 12:57:08,124 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-12-15 12:57:08,187 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:08] "[33mGET /path/to/your/vue-app.js HTTP/1.1[0m" 404 -
+2023-12-15 12:57:08,187 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:08] "[36mGET /static/js/validate.js HTTP/1.1[0m" 304 -
+2023-12-15 12:57:08,187 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [15/Dec/2023 12:57:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2023-12-15 14:06:37,718 INFO werkzeug MainThread :  * Detected change in 'D:\\codes_old\\end_to_end\\ModernAppDev2\\week11\\vue_article_app\\application\\data\\data_access.py', reloading
+2023-12-15 14:06:37,795 INFO werkzeug MainThread :  * Restarting with stat

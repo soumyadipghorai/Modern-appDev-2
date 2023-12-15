@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search results</title>
+    <link rel="stylesheet" type='text/css'  href="{{url_for('static', filename = 'bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type='text/css' href="{{url_for('static', filename = 'style.css')}}">
+    <script type="text/js" src="{{url_for('static', filename = 'js/validate.js')}}"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Search reuslts</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-8 border">
+                <ol>
+                    {% for article in results %}
+                    <li><a href="/article/{{article['rowid']}}">{{article['title']}}</a></li>
+                    {% endfor %}
+                </ol>
+            </div>
+            <div class="col-md-4 border">
+                side bar
+            </div>
+        </div>
+    </div>
+</body>
+</html>

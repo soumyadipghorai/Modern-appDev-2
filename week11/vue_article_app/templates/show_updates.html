@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask sse</title>
+</head>
+<body>
+    <h1>Flask -sse</h1>
+    <script>
+        var source = new EventSource("{{url_for('sse.stream', channel = '')}}"); 
+        source.addEventListener('greeting', function(event){
+            var data = JSON.parse(event.data); 
+            alert("the server says" + data.message);
+        }, false); 
+        source.addEventListener("error", function(event){
+            alert("failed to connect to event stream. Is redis running?")
+        }, false);
+        source.addEventListener("score", function(event){
+            alert("we got score")
+        }, false)
+    </script>
+</body>
+</html>
